@@ -1,0 +1,99 @@
+
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    color: #222;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+
+}
+
+header h1 {
+    text-align: right;
+    margin: 0;
+}
+
+header {
+    background: #17c3b2; 
+    padding: 15px 20px;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-box {
+    display: flex;           /* يخلي الصورة والنص جنب بعض */
+    align-items: center;     /* يخليهم بنفس الخط */
+    gap: 10px;               /* مسافة بسيطة بينهم */
+}
+
+.logo-box img {
+    width: 40px;             /* حجم مربع صغير */
+    height: 40px;
+    border-radius: 6px;      /* لو عايز زوايا ناعمة */
+}
+
+.logo-box h1 {
+    color: #fff;
+    font-size: 24px;
+    margin: 0;
+}
+
+.product-card {
+    width: 250px;              /* عرض الكرت */
+    border: 1px solid #ccc;    /* تحديد طرف */
+    border-radius: 10px;       /* زوايا ناعمة */
+    padding: 15px;             /* مسافة داخلية */
+    text-align: center;        /* النصوص في الوسط */
+    background: #fff;          /* خلفية بيضاء */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* ظل خفيف */
+    margin: 15px;              /* مسافة بين الكروت */
+    display: inline-block;     /* يخليهم جنب بعض */
+}
+
+.product-card img {
+    width: 100%;               /* تملى العرض */
+    height: auto;             /* ارتفاع ثابت */
+    object-fit: contain;         /* يقص الصورة بدون تشويه */
+    border-radius: 8px;
+}
+
+.product-card h3 {
+    margin: 10px 0 5px;
+    font-size: 18px;
+}
+
+.product-card p {
+    color: #444;
+    font-size: 16px;
+}
+
+.product-card h2 {
+    color: red;
+}
+
+main {
+    flex: 1;
+}
+
+footer {
+    background: #17c3b2; 
+    padding: 15px 20px;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    text-align: center;
+}
+
+footer {
+
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+}
